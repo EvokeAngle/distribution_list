@@ -6,7 +6,12 @@
 
     <groupId>groupId</groupId>
     <artifactId>distribution_list</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>netty_sample</module>
+        <module>zookeeper_sample</module>
+    </modules>
 
-    
+
 </project>
